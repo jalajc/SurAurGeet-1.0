@@ -4,6 +4,7 @@ Algorithm
   
   1.1 Regex: PCRE (PHP)
   
+  `(?|(  +)|(\t+)|(\f+)|(...)|…|([xX]?(\(\s+\d\s+\))))`
   `(?|(  +)|(\t)|(\f)|(^(\r\n))(\n|\r)(\n|\r)+|(\r\n(\r\n)+)|(...)|([xX]?(\(\s+\d\s+\))))`
 
   `$str=str_replace("<hr />","<hr/>",str_replace("\n\n", "\n", str_replace("\r\n", "\n", str_replace("&nbsp;","",trim($str)))));`
